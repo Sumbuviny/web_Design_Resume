@@ -6,7 +6,10 @@ body{
 
 header {
   text-align: center;
+  
 }
+
+
 
 footer {
   background-color: #343330;
@@ -16,11 +19,12 @@ footer {
   
 }
 
+
 .heading {
   font-family: sans-serif;
   background-color: #343330;
   color: white;
-  margin-top: 1rem;
+  margin-top: 0rem;
 }
 
 
@@ -37,7 +41,7 @@ footer {
     border: 2px solid #D1603D;
     margin-top: 1rem;
     animation-name: imageAnimation;
-    animation-duration: 3s ;
+    animation-duration: 2s ;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
 }
@@ -59,26 +63,33 @@ footer {
   padding-bottom: 0.5rem;
 }
 
-.sidebar{
-  width: 700px;
-  margin: auto;
-  margin-top: 20px;
+#sidebar{
+  width: 100%;
+  padding: 1rem;
+  
 }
 
 #navlist li{
   display: inline;
-  padding: 15px;
 }
 
 #navlist a{
-  font-size: 25px;
+  font-size: 30px;
+  text-decoration: none;
+  margin-top: 40px;
+  
+  
+}
+
+#navlist li a {
+  padding: 3px;
 }
 
 
 #navlist a:hover{
   font-size: 40px;
   text-decoration: none;
-  color: Red;
+  color: black;
 }
 
 #experience{
@@ -92,8 +103,6 @@ footer {
 #skills{
   color: black;
 }
-
-
 
 
 
