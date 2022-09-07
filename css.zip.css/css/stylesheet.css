@@ -1,24 +1,12 @@
 body{
   font-family: sans-serif;
-  font-size:110%;
+  font-size:50%;
 }
 
 
 header {
   text-align: center;
-  
-}
-
-
-
-footer {
-  background-color: #343330;
-  text-align: center;
-  height: 10rem;
-  padding: 1rem;
-  
-}
-
+  }
 
 .heading {
   font-family: sans-serif;
@@ -27,7 +15,9 @@ footer {
   margin-top: 0rem;
 }
 
-
+#header{
+  padding-bottom: 20px;
+}
 
 @keyframes imageAnimation {
   0% {border-radius:50;}
@@ -42,15 +32,49 @@ footer {
     margin-top: 1rem;
     animation-name: imageAnimation;
     animation-duration: 2s ;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 5;
     animation-timing-function: ease-in;
 }
 
-
-.header{
-  padding-bottom: 20px;
+#navlist{
+  list-style-type: none;
+  overflow: hidden;
 }
 
+#navlist li{
+  display: inline;
+  float:left;
+}
+
+#navlist li a {
+  display: block;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  color: white;  
+}
+
+#navlist li a:hover{
+  font-size: 2rem;
+  color: blue;
+}
+
+
+.row{
+  color: black;
+  opacity: 1;
+  font: normal normal bold 20px Helvetica;
+  letter-spacing: 2px;
+}
+
+footer {
+  background-color: #343330;
+  text-align: center;
+  height: 15rem;
+  padding: 2rem;
+  width: 100%;
+  
+}
 
 .Contact{
   color: white;
@@ -58,52 +82,29 @@ footer {
 }
 
 .logo{
-  margin: 0.4rem;
+  margin: 0.1rem;
   width: 0.5 rem;
   padding-bottom: 0.5rem;
+  border-radius: 20%;
 }
 
-#sidebar{
-  width: 100%;
-  padding: 1rem;
-  
+
+.job1, .job2, p{
+  font-size: 1rem;
+  line-height: 2;
 }
 
-#navlist li{
-  display: inline;
+h3{
+  font-size: 1.2rem;
 }
 
-#navlist a{
-  font-size: 30px;
+.link{
   text-decoration: none;
-  margin-top: 40px;
-  
-  
 }
 
-#navlist li a {
-  padding: 3px;
+.container{
+  font-family: Helvetica, sans-serif;
 }
-
-
-#navlist a:hover{
-  font-size: 40px;
-  text-decoration: none;
-  color: black;
-}
-
-#experience{
-  color: black;
-}
-
-#education{
-  color: black;
-}
-
-#skills{
-  color: black;
-}
-
 
 
 
