@@ -86,11 +86,22 @@ width: 25px;
     background-size: cover;
 }
 
+.heading {
+  background-image: url("images/ocean.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+}
 
+footer {
+  background-image: url("images/moutain.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+}
 
-
-
-    </style>
+body{
+  background-color:whitesmoke;
+}
+</style>
 
 </head>
 
@@ -133,9 +144,8 @@ width: 25px;
 
             <h1>Viny Sumbu</h1>
             
-            <p class="text-info"> I am passionate about coding and eager to learn. 
-                I Studied <span>Information Technology</span> at Damelin.
-                Graduated from <strong>Damelin.</strong> 
+            <p class="first-p"> I am passionate about coding and eager to learn. 
+                I Studied <span>Information Technology</span> and Graduated from <strong>Damelin.</strong> 
                 I'm studying <em>Software development</em> at <strong>codespace</strong>
             </p>
             
@@ -170,7 +180,7 @@ width: 25px;
 
 
 
-<p class="lead">Intro to Web will show you how to make basic web pages. In this course, you will learn two coding languages: HTML and CSS. These two languages are the foundation of all websites. HTML creates the structure of the website, and CSS styles the website. 
+<p class="lead" id="second-p">Intro to Web will show you how to make basic web pages. In this course, you will learn two coding languages: HTML and CSS. These two languages are the foundation of all websites. HTML creates the structure of the website, and CSS styles the website. 
  
   You will use HTML and CSS to code a digital resumé. This online CV will present your skills and experience in an impressive way. As you continue with our courses beyond Intro to Web you will continue updating this resumé and adding portfolio pieces. </p>
 
@@ -220,7 +230,7 @@ width: 25px;
 
 <h3 id="Job1" class="text-info">Job 1</h3>
  <p class="lead">
-<ul class="job1 list-unstyled lead">
+<ul class="job1 list-unstyled lead" id="first-list">
 
 <li>A Front-End Developer: responsible for developing new user-facing features, determining the structure and design of web pages, building reusable codes, optimizing page loading times, and using a variety of markup languages to create the web pages.</li>
 
@@ -237,7 +247,7 @@ width: 25px;
 
 
 
-<ul class="job2 list-unstyled lead">
+<ul class="job2 list-unstyled lead" id="second-list">
 
 <li> Java developer Designs, implements and maintains Java-based applications that can be high-volume and low-latency.</li>
 
@@ -266,10 +276,10 @@ width: 25px;
       <h5 class="card-title" id="skills">Skills</h5>
       </div>
     <ul class="list-group list-group-flush lead">
-      <li class="list-group-item text-center">Junior software developer</li>
-      <li class="list-group-item text-center">Frontend developer</li>
-      <li class="list-group-item text-center">Backend developer</li>
-      <li class="list-group-item text-center">web developer</li>
+      <li class="list-group-item text-center bg-info">Junior software developer</li>
+      <li class="list-group-item text-center bg-info">Frontend developer</li>
+      <li class="list-group-item text-center bg-info">Backend developer</li>
+      <li class="list-group-item text-center bg-info">web developer</li>
     </ul>
   </div>
 

@@ -10,7 +10,6 @@ header {
 
 .heading {
   font-family: sans-serif;
-  background-color: #343330;
   color: white;
   margin-top: 0rem;
 }
@@ -32,7 +31,7 @@ header {
     margin-top: 1rem;
     animation-name: imageAnimation;
     animation-duration: 2s ;
-    animation-iteration-count: 5;
+    animation-iteration-count: 8;
     animation-timing-function: ease-in;
 }
 
@@ -68,7 +67,6 @@ header {
 }
 
 footer {
-  background-color: #343330;
   text-align: center;
   height: 15rem;
   padding: 2rem;
@@ -106,5 +104,23 @@ h3{
   font-family: Helvetica, sans-serif;
 }
 
+.first-p{
+  font-size: 20px;
+  color:black;
+}
+
+#second-p{
+max-width: 600px;
+color: #555;
+font-size: 16px;
+line-height: 2;
+}
+
+#first-list, #second-list{
+max-width: 600px;
+color:#555;
+font-size: 16px;
+line-height: 2;
+}
 
 
